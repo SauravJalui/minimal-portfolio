@@ -9,6 +9,21 @@ html, body {
       background: #0f0f0f !important;
       color: #fff !important;
 }
+/*--------------- wave effect --------------- */
+.wave {
+      position: absolute;
+      left:0;
+      right:0;
+      top:300px;
+      bottom:0;
+      z-index: 1;
+    }
+    
+    .wave + .wave {
+      z-index: 2;
+    }
+
+/*--------------- wave effect --------------- */
 
 .whitespace {
       width: 100%;

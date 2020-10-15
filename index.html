@@ -186,6 +186,36 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 
       <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js" integrity="sha256-kRbW+SRRXPogeps8ZQcw2PooWEDPIjVQmN1ocWVQHRY=" crossorigin="anonymous"></script>
+		<script src="jquery.click-firewords.js"></script>
+		<script>
+			$(function () {
+				$('button, a').clickFireworks({
+						id: 'fireworks', // canvas id
+						appendTo: 'body', // append canvas to where, default is body
+						zIndex: 1000 // canvas z-index, make it higher than anything on the page
+				});
+			});
+		</script>
+
+
+      <!-- <button>click me</button>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js" integrity="sha384-BnFYVbw3PHhz5qWXTCSL12MjPc3KxjdKPx7R4R5JjIzxFmYX267NDyJ9B/nZANdg" crossorigin="anonymous"></script>
+      <script src="jquery.click-firewords.js"></script>
+      <script>
+      $(function () {
+            $('button').clickFireworks({
+                  id: 'fireworks', // canvas id
+                  appendTo: 'body', // append canvas to where, default is body
+                  zIndex: 1000 // canvas z-index, make it higher than anything on the page
+            });
+      });
+      </script> -->
+
+      
       <script type="text/javascript">
 
       // navigation starts here
