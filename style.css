@@ -9,6 +9,12 @@ html, body {
       background: #0f0f0f !important;
       color: #fff !important;
 }
+.projecthome{
+      font-size: 250%;
+      text-align: center;
+      padding-left: 20px;
+      padding-top: 10px;
+}
 /*--------------- wave effect --------------- */
 .wave {
       position: absolute;
